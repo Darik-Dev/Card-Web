@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: hsl(225, 100%, 94%);
+  background-image: url("./assets/images/pattern-background-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 50%;
+  background-position: center top;
+}
+
+.card {
+  width: 430px;
+  margin-inline: auto;
+  background-color: white;
+  border-radius: 15px;
+  overflow: hidden;
+  margin-top: 30px;
+  font-family: "Red Hat Display", sans-serif;
+  padding-bottom: 30px;
+}
+
+.card__img {
+  width: 100%;
+}
+
+.card__title {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: 900;
+  font-size: 28px;
+}
+
+.card__description {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  margin-inline: auto;
+  color: hsl(224, 23%, 55%);
+  width: 70%;
+}
+
+.component-music {
+  padding: 15px 40px 15px 25px;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 15px;
+  margin: 20px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.component-music__text-container p {
+  color: hsl(224, 23%, 55%);
+}
+
+.component-music__button {
+  margin-left: auto;
+  font-weight: 900;
+}
+
+.submit-btn,
+.cancel-btn {
+  display: block;
+  margin-inline: auto;
+  width: 86%;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-radius: 15px;
+  border: none;
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.submit-btn {
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  box-shadow: 0 8px 30px rgba(0, 0, 255, 30%);
+}
+
+.submit-btn:hover {
+  background-color: hsl(224, 23%, 55%);
+}
+
+.cancel-btn {
+  background-color: rgba(0, 0, 0, 0);
+
+  color: hsl(224, 23%, 55%);
+}
+
+.cancel-btn:hover {
+  color: hsl(223, 47%, 23%);
+}
